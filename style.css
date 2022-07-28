@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Muli', sans-serif;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: rgb(57, 160, 197);
+}
+
+.wrapper {
+	width: 605px;
+	background-color: #ffff;
+	padding: 30px 30px 25px;
+	border-radius: 15px;
+}
+
+.wrapper .header {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.wrapper .content {
+	margin: 30px 0;
+}
+
+.wrapper .content .quote-area {
+	display: flex;
+	justify-content: center;
+}
+
+.quote-area i {
+	font-size: 15px;
+}
+
+.quote-area i:first-child {
+	margin: 3px 10px 0 0;
+}
+.quote-area i:last-child {
+	display: flex;
+	align-items: flex-end;
+	margin: 0px 0px 10px 3px;
+}
+.quote-area .quote {
+	font-size: 22px;
+	text-align: center;
+}
+.content .author {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 20px;
+	font-style: italic;
+	font-size: 12px;
+	font-weight: 650;
+}
+.wrapper .buttons {
+	border-top: 1px solid #ccc;
+	margin: 10px;
+}
+.wrapper .buttons .features {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+.wrapper .buttons .features ul {
+	display: flex;
+}
+.wrapper .buttons .features ul li {
+	list-style: none;
+	margin: 0 5px;
+	height: 47px;
+	width: 47px;
+	border: 2px solid rgb(127, 127, 233);
+	color: rgb(127, 127, 233);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+.wrapper .buttons .features ul li:hover {
+	color: #ffff;
+	background-color: rgb(127, 127, 233);
+}
+.wrapper .buttons .features .btn {
+	background-color: rgb(117, 130, 217);
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	padding: 15px 25px 15px 25px;
+	font-weight: 600;
+	color: #ffff;
+	border-radius: 25px;
+	cursor: pointer;
+}
+.wrapper .buttons .features .btn:hover {
+	background-color: rgb(5, 2, 19);
+	transition: all 0.3s ease;
+}
